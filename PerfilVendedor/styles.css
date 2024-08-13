@@ -1,0 +1,88 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.profile-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.profile-card {
+    background-color: #ffffff;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.profile-card img {
+    height: 100px;
+    border-radius: 50%;
+}
+
+.profile-card h2, .profile-card p {
+    margin: 10px 0;
+}
+
+.profile-card button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.purchase-history {
+    padding: 20px;
+    text-align: center;
+}
+
+.art-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.art-card {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+.art-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.art-card p {
+    margin: 5px 0;
+}

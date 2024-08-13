@@ -1,0 +1,146 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.viewer-button {
+    padding: 10px 20px;
+    background-color: #444;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info img {
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.publication-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.form-section {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cover-section {
+    grid-row: span 2;
+}
+
+.add-cover, .add-files {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #666;
+    padding: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.plus-icon {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.price-section {
+    margin-top: 20px;
+    grid-column: span 2;
+    text-align: center;
+}
+
+.price-section label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.price-section input {
+    align-items: center;
+    padding: 10px;
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.price-section label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.description-section {
+    grid-column: span 2;
+}
+
+.description-section label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.description-section textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    resize: none;
+}
+
+.viewer-button-secondary {
+    text-align: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #444;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

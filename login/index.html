@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="src/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <div class="logo">
+                <img src="fotos/logo.png" alt="Logo">
+                <h1>GetArts</h1>
+            </div>
+        </div>
+        <div class="right-section">
+            <form id="app-form">
+                <h2>Login</h2>
+                <p class="subheading"></p>
+                <div class="input-group">
+                    <label for="email">E-mail</label>
+                    <input type="text" v-model="input_name"  name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Senha</label>
+                    <div class="password-container">
+                        <input type="password" id="password" name="password" required>
+                        <span class="toggle-password" onclick="togglePasswordVisibility()"></span>
+                    </div>
+                    
+                </div>
+                
+                <!-- <p class="already-account">Já possui uma conta? <a href="#">clique aqui</a></p> -->
+                <button type="submit" value="Enviar" v-on:click="submitform">Continuar</button>
+            </form>
+            
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

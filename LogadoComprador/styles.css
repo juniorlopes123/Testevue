@@ -1,0 +1,90 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.search-profile {
+    display: flex;
+    align-items: center;
+}
+
+.search-profile input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.search-profile img {
+    height: 40px;
+    border-radius: 50%;
+}
+
+.hero {
+    text-align: center;
+    background: url('hero-background.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 50px 20px;
+}
+
+.art-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.art-card {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.art-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.art-info h2 {
+    margin: 10px 0 5px;
+}
+
+.art-info p {
+    margin: 5px 0;
+}

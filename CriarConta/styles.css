@@ -1,0 +1,127 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 70%;
+    height: 70%;
+    background-color: #444;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.left-section, .right-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-section {
+    background-color: #222;
+    text-align: center;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.logo h1 {
+    margin-top: 10px;
+    font-size: 24px;
+    color: white;
+}
+
+.right-section {
+    background-color: white;
+    color: black;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 100%;
+    max-width: 300px;
+}
+
+form h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: black;
+}
+
+.subheading {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: gray;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.password-container {
+    align-items: center;
+}
+
+.password-container input {
+    flex: 1;
+}
+
+.toggle-password {
+    cursor: pointer;
+    margin-left: 10px;
+    user-select: none;
+}
+
+.already-account {
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+}
+
+.already-account a {
+    color: black;
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}

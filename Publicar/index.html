@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GetArts - Nova Publicação</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="GetArts">
+            <span>getArts</span>
+        </div>
+        <button class="viewer-button">Visualizar como comprador</button>
+        <div class="user-info">
+            <span>Pindamanhãguaba</span>
+            <img src="profile.png" alt="Perfil">
+        </div>
+    </header>
+    <main>
+        <h1>Nova publicação</h1>
+        <div class="publication-form">
+            <div class="form-section cover-section">
+                <div class="add-cover">
+                    <span class="plus-icon">+</span>
+                    <p>Adicionar capa</p>
+                </div>
+            </div>
+            <div class="form-section cover-section">
+                <div class="add-cover">
+                    <span class="plus-icon">+</span>
+                    <p>Adicionar conjunto</p>
+                </div>
+            </div>
+            <div class="form-section description-section">
+                <label for="description">Descrição</label>
+                <textarea id="description" rows="4" placeholder="Digite a descrição aqui..."></textarea>
+            </div>
+            <div class="price-section">
+                <label for="price">Selecione um valor justo</label>
+                <input type="text" id="price"  placeholder="$ 0,00">
+            </div>
+            <div class="bottom">
+                
+                <button class="viewer-button-secondary">Publicar</button>
+            </div>
+        </div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>

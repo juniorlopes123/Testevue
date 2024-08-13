@@ -1,0 +1,147 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #222;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-left img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.header-left h1 {
+    font-size: 24px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.view-as-buyer {
+    background-color: #555;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.view-as-buyer:hover {
+    background-color: #777;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.user-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.new-publication {
+    background-color: #444;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.new-publication h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.add-button {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 24px;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.your-publications {
+    background-color: #444;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.your-publications h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.publication-list {
+    display: flex;
+    gap: 20px;
+}
+
+.publication-card {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+}
+
+.publication-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.publication-info {
+    padding: 20px;
+}
+
+.publication-info h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.publication-info p {
+    margin: 5px 0;
+}
+
+.publication-info button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.publication-info button:hover {
+    background-color: #555;
+}
